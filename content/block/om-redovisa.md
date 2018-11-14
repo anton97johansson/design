@@ -1,3 +1,4 @@
 #### Redovisa på GitHub
 
-Skriv något kort om ditt redovisa-repo och länka till [repot för me/redovisa på GitHub](XXX).
+I kursen så lär vi oss olika knepp för att underlätta design.
+Så man får en användarvänlig hemsida. [repot för me/redovisa på GitHub](https://github.com/anton97johansson/design).
