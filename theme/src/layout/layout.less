@@ -1,0 +1,154 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+.inner-wrap {
+    max-width: 900px;
+    background: beige;
+    margin: 0 auto;
+}
+
+// .rm-desktop ul {
+//     background-color: transparent;
+// }
+//
+// /* Hide responsive/mobile menu, leave this to kmom02 */
+// .rm-navbar-max {
+//     background-color: darkred;
+// }
+
+// .wrap-all {
+//     max-width: 1000px;
+//     background-color: beige;
+//     margin: 0 auto;
+
+
+
+
+
+outer-wrap-header {
+    border-bottom: 2px solid black;
+}
+
+ul {
+    font-style: oblique;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+.wrap-sidebar .block{
+
+    border: 3px solid darkred;
+}
+.wrap-sidebar p {
+
+    margin-right: 30px;
+}
+img {
+    max-width:100%;
+    max-height:100%;
+    margin-left: 0 auto;
+}
+
+.footer-column-x {
+
+
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    border-right: 1px solid #EEE;
+    background-color: green;
+    margin: auto;
+    float: left;
+
+}
+.footer-column-x h4 {
+    width: 200px;
+
+}
+.footer-column-1 {
+
+    width: 33%;
+}
+.footer-column-2 {
+    width: 33%;
+
+}
+
+.footer-column-3 {
+    width: 33%;
+    border-right: none;
+
+}
+
+
+.region-header-col-1 a {
+    font-style: italic;
+    color: grey;
+    font-size: xx-large;
+}
+
+.block.toc {
+    margin-left: 0px;
+}
+
+.inner-wrap-main{
+    overflow: auto;
+}
+.region-main {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+    overflow: auto;
+
+    &.has-sidebar {
+        margin-left: 0;
+    }
+    &.has-sidebar-left.has-sidebar-right {
+
+        width: 60%;
+    }
+}
+
+.region-sidebar-right ,
+.region-sidebar-left {
+    width: 30%;
+    float:  left;
+}
+
+.region-sidebar-right.has-sidebar-left,
+.region-sidebar-left.has-sidebar-right {
+    width: 20%;
+}
