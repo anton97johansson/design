@@ -34,6 +34,9 @@ body {
   background-color: #ccc;
   font: 100.01%/1 serif;
 }
+img {
+  max-width: 100%;
+}
 /**
  * Layout style for general structure of header, navbar, main, footer
  * and other regions of the page including route specific styles.

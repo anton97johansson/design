@@ -16,3 +16,7 @@ v1.0.1 (2018-11-14)
 v2.0.0 (2018-11-27)
 ----------------------
 * Using theme, made new stylesheet.
+
+v3.0.0 (2018-12-04)
+---------------------
+* Created a new stylesheet. This time using grids.
