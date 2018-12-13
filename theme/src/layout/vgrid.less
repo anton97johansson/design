@@ -14,11 +14,12 @@
  */
 
  html {
-     background-color: darkred;
+     background-color: @bgColorBody;
  }
 .inner-wrap {
     // max-width: 900px;
-    background: beige;
+    background-color: @innerWrapColor;
+    //beige
     // margin: 0 auto;
     #desinax-vgrid.grid(1100px);
 }
@@ -84,7 +85,7 @@ li {
 
 li a {
     //display: block;
-    color: grey;
+    //color: grey;
     // text-align: center;
     // padding: 1em;
     text-decoration: none;
@@ -98,7 +99,7 @@ li a {
 
 .wrap-sidebar .block{
 
-    border: 3px solid darkred;
+    border: 3px solid @bgColorBody ;
 }
 .wrap-sidebar p {
 
@@ -146,7 +147,8 @@ img {
 
 .region-header-col-1 a {
     font-style: italic;
-    color: grey;
+    color: @logoTextColor;
+    //grey
     font-size: xx-large;
 }
 
@@ -227,27 +229,39 @@ img {
 }
 
 .outer-wrap-footer,
+.inner-wrap-footer {
+    margin-top: 150px;
+    padding-bottom: 50px;
+}
+
+.outer-wrap-footer,
 .inner-wrap-footer,
 .footer-column-x {
-    background-color: #4444;
-    color: white;
+    background-color: @footerColor;
+    //#4444;
+    color: @footerTextColor;
+    //white
+
 }
 
 .footer-column-x {
-    // margin-top: 10px;
-    border-bottom: 5px solid #000;
+    padding-bottom: 70px;
+    border-bottom: 5px solid @footerBoarder;
+    //black
 }
 
 .rm-desktop li a {
-    color: white;
+    color: @headerLink;
+    //white
 }
 
 .rm-submenu-button li a {
-    background-color: darkred;
+    background-color: @bgColorBody;
 }
 
 .rm-desktop li a:hover {
-    color: beige;
+    color: @headerLinkHover;
+    //beige
 }
 
 .inner-wrap-main p {
@@ -255,7 +269,8 @@ img {
 }
 
 .outer-wrap-header {
-    background-color: #4444;
+    background-color: @bgHeadColor;
+    //#4444;
     // overflow: auto;
     //.clearfix();
     // height: 75px;
@@ -267,7 +282,8 @@ img {
 
 .inner-wrap-header {
     // max-width: 100%;
-    background-color: #4444;
+    background-color: @bgHeadColor;
+    //#4444;
 
 }
 
@@ -299,12 +315,14 @@ img {
 }
 
 .footer-column-x p,
-.footer-column-x a{
-    color: #407F7F;
+.footer-column-x a {
+    color: @footerBoxText;
+    //#407F7F;
 }
 
-.footer-column-x h4{
-    color: #669999;
+.footer-column-x h4 {
+    color: @footer;
+    //#669999
 }
 
 .outer-wrap-footer {

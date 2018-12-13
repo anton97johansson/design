@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
  * This stylesheet is for the design course and kmom02 where we use LESS.
  */
@@ -4595,7 +4595,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
      */
 }
 body {
-  font: 18px/1.22222222 "serif";
+  font: 18px/1.11111111 Cambria;
 }
 h1,
 h2,
@@ -4603,9 +4603,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
-  margin-top: 22px;
-  margin-bottom: 22px;
+  font-family: Tahoma;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 h1 img,
 h2 img,
@@ -4617,10 +4617,10 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.02923977;
+  line-height: 1.40350877;
   font-weight: normal;
   border-bottom: 1px solid #666;
-  margin-bottom: 21px;
+  margin-bottom: 19px;
 }
 h1 ~ h1,
 h1 ~ h2,
@@ -4628,58 +4628,58 @@ h1 ~ h3,
 h1 ~ h4,
 h1 ~ h5,
 h1 ~ h6 {
-  margin-top: 44px;
+  margin-top: 40px;
 }
 h1 + h2 {
-  margin-top: 22px;
+  margin-top: 20px;
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.3037037;
+  line-height: 1.18518519;
   font-weight: normal;
-  margin-bottom: 21px;
+  margin-bottom: 19px;
   border-bottom: 1px solid #CCC;
 }
 h2 + h3 {
-  margin-top: 22px;
+  margin-top: 20px;
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.3968254;
+  line-height: 1.26984127;
   font-weight: normal;
-  margin-bottom: 21px;
+  margin-bottom: 19px;
   border-bottom: 1px solid #EEE;
 }
 h3 + h4 {
-  margin-top: 22px;
+  margin-top: 20px;
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.62962963;
+  line-height: 1.48148148;
   font-weight: normal;
-  margin-bottom: 21px;
+  margin-bottom: 19px;
   border-bottom: 1px solid #EEE;
 }
 h4 + h5 {
-  margin-top: 22px;
+  margin-top: 20px;
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.95555556;
-  margin-bottom: 21px;
+  line-height: 1.77777778;
+  margin-bottom: 19px;
   border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
-  margin-top: 22px;
+  margin-top: 20px;
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.95555556;
-  margin-bottom: 21px;
+  line-height: 1.77777778;
+  margin-bottom: 19px;
   border-bottom: 1px solid #EEE;
 }
 p {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 small,
 .small,
@@ -4720,7 +4720,7 @@ blockquote {
   border-left: 4px solid #eee;
   padding-left: 1em;
   margin-left: 0;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 pre,
 code,
@@ -4736,7 +4736,7 @@ samp {
   padding-right: 1px;
 }
 code {
-  background-color: #eee;
+  background-color: #444;
 }
 pre,
 div.code,
@@ -4746,7 +4746,7 @@ pre code {
   white-space: pre;
 }
 pre {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 pre code {
   display: block;
@@ -4756,21 +4756,21 @@ div.code,
 pre code {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 21px;
-  padding-top: 11px;
-  padding-bottom: 11px;
+  margin-bottom: 19px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 0.5em;
   background-color: #eee;
 }
 ul,
 ol {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   padding-left: 1.5em;
 }
 ul p,
 ol p {
-  margin-top: 11px;
-  margin-bottom: 11px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 ul ul,
 ol ul,
@@ -4785,7 +4785,7 @@ ol {
   list-style-type: decimal;
 }
 dl {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 dl.horizontal dt {
   clear: left;
@@ -4803,7 +4803,7 @@ article table,
 .table,
 .table1,
 .table2 {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 table.full-width,
 article .table,
@@ -4824,7 +4824,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.3968254;
+  line-height: 1.26984127;
   text-align: left;
   font-style: italic;
 }
@@ -4846,7 +4846,7 @@ article table th,
 article table td,
 .table td,
 .table2 td {
-  padding: 5.5px;
+  padding: 5px;
 }
 article table tr,
 .table tr,
@@ -4870,8 +4870,8 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  margin-top: 32px;
-  margin-bottom: 33px;
+  margin-top: 29px;
+  margin-bottom: 30px;
 }
 hr::after {
   content: "§";
@@ -4882,7 +4882,7 @@ hr::after {
   background-color: #fff;
 }
 .hgrid .inner-wrap {
-  background-image: url("../img/magic-number-22px.png");
+  background-image: url("../img/magic-number-20px.png");
 }
 /**
  * Base style to affect HTML elements on a general scale.
@@ -4892,14 +4892,14 @@ hr::after {
  */
 html {
   overflow-y: scroll;
-  background-color: darkred;
+  background-color: #111;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: darkred;
-  font: 18px/1.22222222 "serif";
+  color: #999;
+  background-color: #111;
+  font: 18px/1.11111111 Cambria;
 }
 img {
   max-width: 100%;
@@ -4910,9 +4910,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
-  margin-top: 22px;
-  margin-bottom: 22px;
+  font-family: Tahoma;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 h1 img,
 h2 img,
@@ -4924,10 +4924,10 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.02923977;
+  line-height: 1.40350877;
   font-weight: normal;
   border-bottom: 1px solid #666;
-  margin-bottom: 21px;
+  margin-bottom: 19px;
 }
 h1 ~ h1,
 h1 ~ h2,
@@ -4935,58 +4935,58 @@ h1 ~ h3,
 h1 ~ h4,
 h1 ~ h5,
 h1 ~ h6 {
-  margin-top: 44px;
+  margin-top: 40px;
 }
 h1 + h2 {
-  margin-top: 22px;
+  margin-top: 20px;
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.3037037;
+  line-height: 1.18518519;
   font-weight: normal;
-  margin-bottom: 21px;
+  margin-bottom: 19px;
   border-bottom: 1px solid #CCC;
 }
 h2 + h3 {
-  margin-top: 22px;
+  margin-top: 20px;
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.3968254;
+  line-height: 1.26984127;
   font-weight: normal;
-  margin-bottom: 21px;
+  margin-bottom: 19px;
   border-bottom: 1px solid #EEE;
 }
 h3 + h4 {
-  margin-top: 22px;
+  margin-top: 20px;
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.62962963;
+  line-height: 1.48148148;
   font-weight: normal;
-  margin-bottom: 21px;
+  margin-bottom: 19px;
   border-bottom: 1px solid #EEE;
 }
 h4 + h5 {
-  margin-top: 22px;
+  margin-top: 20px;
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.95555556;
-  margin-bottom: 21px;
+  line-height: 1.77777778;
+  margin-bottom: 19px;
   border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
-  margin-top: 22px;
+  margin-top: 20px;
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.95555556;
-  margin-bottom: 21px;
+  line-height: 1.77777778;
+  margin-bottom: 19px;
   border-bottom: 1px solid #EEE;
 }
 p {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 small,
 .small,
@@ -5027,7 +5027,7 @@ blockquote {
   border-left: 4px solid #eee;
   padding-left: 1em;
   margin-left: 0;
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 pre,
 code,
@@ -5043,7 +5043,7 @@ samp {
   padding-right: 1px;
 }
 code {
-  background-color: #eee;
+  background-color: #444;
 }
 pre,
 div.code,
@@ -5053,7 +5053,7 @@ pre code {
   white-space: pre;
 }
 pre {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 pre code {
   display: block;
@@ -5063,21 +5063,21 @@ div.code,
 pre code {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 21px;
-  padding-top: 11px;
-  padding-bottom: 11px;
+  margin-bottom: 19px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 0.5em;
   background-color: #eee;
 }
 ul,
 ol {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   padding-left: 1.5em;
 }
 ul p,
 ol p {
-  margin-top: 11px;
-  margin-bottom: 11px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 ul ul,
 ol ul,
@@ -5092,7 +5092,7 @@ ol {
   list-style-type: decimal;
 }
 dl {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 dl.horizontal dt {
   clear: left;
@@ -5110,7 +5110,7 @@ article table,
 .table,
 .table1,
 .table2 {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 table.full-width,
 article .table,
@@ -5131,7 +5131,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.3968254;
+  line-height: 1.26984127;
   text-align: left;
   font-style: italic;
 }
@@ -5153,7 +5153,7 @@ article table th,
 article table td,
 .table td,
 .table2 td {
-  padding: 5.5px;
+  padding: 5px;
 }
 article table tr,
 .table tr,
@@ -5177,8 +5177,8 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  margin-top: 32px;
-  margin-bottom: 33px;
+  margin-top: 29px;
+  margin-bottom: 30px;
 }
 hr::after {
   content: "§";
@@ -5231,10 +5231,10 @@ hr::after {
  * General layout
  */
 html {
-  background-color: darkred;
+  background-color: #111;
 }
 .inner-wrap {
-  background-color: beige;
+  background-color: #222;
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
@@ -5284,7 +5284,7 @@ li a {
 }
 /* Change the link color to #111 (black) on hover */
 .wrap-sidebar .block {
-  border: 3px solid darkred;
+  border: 3px solid #111;
 }
 .footer-column-x {
   /* margin: auto; */
@@ -5295,7 +5295,7 @@ li a {
 }
 .region-header-col-1 a {
   font-style: italic;
-  color: grey;
+  color: yellow;
   font-size: xx-large;
 }
 .region-main {
@@ -5397,30 +5397,30 @@ li a {
 .outer-wrap-footer,
 .inner-wrap-footer,
 .footer-column-x {
-  background-color: #4444;
-  color: white;
+  background-color: #333;
+  color: #999;
 }
 .footer-column-x {
   padding-bottom: 70px;
   border-bottom: 5px solid black;
 }
 .rm-desktop li a {
-  color: white;
+  color: #777;
 }
 .rm-submenu-button li a {
-  background-color: darkred;
+  background-color: #111;
 }
 .rm-desktop li a:hover {
-  color: beige;
+  color: #bbbb;
 }
 .outer-wrap-header {
-  background-color: #4444;
+  background-color: #222;
 }
 .site-logo {
   display: none;
 }
 .inner-wrap-header {
-  background-color: #4444;
+  background-color: #222;
 }
 .region-header-col-1,
 .region-header-col-3 {
@@ -5454,10 +5454,10 @@ li a {
 }
 .footer-column-x p,
 .footer-column-x a {
-  color: #407F7F;
+  color: #777;
 }
 .footer-column-x h4 {
-  color: #669999;
+  color: #222;
 }
 .footer-column {
   display: inline;
@@ -5473,6 +5473,23 @@ li a {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+}
+a {
+  color: #6A6000;
+}
+#rm-menu a:hover {
+  background-color: #444;
+}
+#rm-menu,
+.rm-max .rm-mobile .rm-submenu-button {
+  background-color: #333;
+}
+#rm-menu a {
+  color: #6A6000;
+  text-decoration: none;
+}
+li a {
+  text-decoration: none;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -5569,4 +5586,4 @@ li a {
 }
 /**
  * My own settings, not currently in their own module.
-//  */
+ */

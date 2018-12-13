@@ -4892,7 +4892,7 @@ hr::after {
  */
 html {
   overflow-y: scroll;
-  background-color: #ccc;
+  background-color: darkred;
 }
 body {
   margin: 0;
@@ -5234,7 +5234,7 @@ html {
   background-color: darkred;
 }
 .inner-wrap {
-  background: beige;
+  background-color: beige;
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
@@ -5280,7 +5280,6 @@ ul {
   background-color: transparent;
 }
 li a {
-  color: grey;
   text-decoration: none;
 }
 /* Change the link color to #111 (black) on hover */
@@ -5391,13 +5390,19 @@ li a {
   }
 }
 .outer-wrap-footer,
+.inner-wrap-footer {
+  margin-top: 150px;
+  padding-bottom: 50px;
+}
+.outer-wrap-footer,
 .inner-wrap-footer,
 .footer-column-x {
   background-color: #4444;
   color: white;
 }
 .footer-column-x {
-  border-bottom: 5px solid #000;
+  padding-bottom: 70px;
+  border-bottom: 5px solid black;
 }
 .rm-desktop li a {
   color: white;
@@ -5564,4 +5569,4 @@ li a {
 }
 /**
  * My own settings, not currently in their own module.
- */
+//  */
